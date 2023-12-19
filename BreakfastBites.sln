@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakfastBites", "BreakfastBites.csproj", "{FD68E0CA-F16D-41E0-ACB7-D5CAE7E9E4A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakfastBites.Contracts", "..\BreakfastBites.Contracts\BreakfastBites.Contracts.csproj", "{68CE74F3-163A-4AB2-A3DB-CE06C776A520}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{89071455-50CA-47A4-942C-4D33AF7DF292}"
+	ProjectSection(SolutionItems) = preProject
+		API.md = API.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD68E0CA-F16D-41E0-ACB7-D5CAE7E9E4A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD68E0CA-F16D-41E0-ACB7-D5CAE7E9E4A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD68E0CA-F16D-41E0-ACB7-D5CAE7E9E4A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD68E0CA-F16D-41E0-ACB7-D5CAE7E9E4A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68CE74F3-163A-4AB2-A3DB-CE06C776A520}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68CE74F3-163A-4AB2-A3DB-CE06C776A520}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68CE74F3-163A-4AB2-A3DB-CE06C776A520}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68CE74F3-163A-4AB2-A3DB-CE06C776A520}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {020211A0-52A2-4621-9BA2-6313B5F11D39}
+	EndGlobalSection
+EndGlobal
